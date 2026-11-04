@@ -14,7 +14,7 @@
 - [ ] Cập nhật `README.md`, `CHANGELOG.md` (10/11)
 
 ## Nguyễn Chi – Dữ liệu và kiến thức nền
-- [ ] `src/preprocessing/transforms.py` (04/11)
+- [x] `src/preprocessing/transforms.py` (04/11)
 - [ ] `src/preprocessing/dataset.py` (05/11)
 - [ ] `tests/test_transforms.py`, `tests/test_dataset.py` (06/11)
 - [ ] `notebooks/01_pytorch_basics.ipynb` (07/11)
@@ -40,7 +40,7 @@
 - [ ] Log vào `data/output/tensorboard/`
 
 ## Đức – Thử nghiệm và trực quan hóa
-- [ ] `docs/03_research/hyperparameters.md` (03/11)
+- [x] `docs/03_research/hyperparameters.md` (03/11)
 - [ ] `src/visualization/plot_loss.py`, thử bằng history giả (05/11)
 - [ ] Khung `src/visualization/show_predictions.py` (06/11)
 - [ ] `experiments/tune_hyperparams.py` (08/11)
