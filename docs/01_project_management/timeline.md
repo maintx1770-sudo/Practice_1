@@ -8,8 +8,8 @@
 |---|---|---|---|
 | **03/11 (T3)** | Mai | `src/config.py`, các `__init__.py`, `requirements.txt`, `.gitignore`; chốt cấu trúc | Xong |
 | | Mai | `lab_requirements.md` | Xong |
-| | Đức | `hyperparameters.md` | |
-| | Trúc Chi | viết `conftest.py` | |
+| | Đức | `hyperparameters.md` | Trễ|
+| | Trúc Chi | viết `conftest.py` | Xong |
 | **04/11 (T4)** | Nguyễn Chi | `transforms.py` | |
 | | My | `neural_network.py` | |
 | | Huynh | `metrics.py` | |
