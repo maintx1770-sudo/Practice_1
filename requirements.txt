@@ -13,4 +13,5 @@ tensorboard>=2.12
 scikit-learn>=1.2
 pytest>=7.0
 jupyter>=1.0
+pillow>=9.0
  
