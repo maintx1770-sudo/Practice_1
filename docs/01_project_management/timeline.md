@@ -20,7 +20,7 @@
 | | Đức | `plot_loss.py` bằng history giả |Chưa làm, trễ|
 | | Trúc Chi | `test_plan.md`, `test_cases.md` |Xong |
 | | Mai | 4 file `docs/01_project_management/`, `experiment_requirements.md` |Xong|
-| **06/11 (T6)** | Nguyễn Chi | `test_transforms.py`, `test_dataset.py` | |
+| **06/11 (T6)** | Nguyễn Chi | `test_transforms.py`, `test_dataset.py` | Xong |
 | | My | `model_io.py`, `test_model_io.py` | |
 | | Huynh | Hoàn chỉnh `trainer.py`, bắt đầu `test_metrics.py`, `test_trainer.py` | |
 | | Đức | Khung `show_predictions.py` | |

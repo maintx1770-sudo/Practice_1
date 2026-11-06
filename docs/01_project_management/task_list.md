@@ -16,7 +16,7 @@
 ## Nguyễn Chi – Dữ liệu và kiến thức nền
 - [x] `src/preprocessing/transforms.py` (04/11)
 - [x] `src/preprocessing/dataset.py` (05/11)
-- [ ] `tests/test_transforms.py`, `tests/test_dataset.py` (06/11)
+- [x] `tests/test_transforms.py`, `tests/test_dataset.py` (06/11)
 - [ ] `notebooks/01_pytorch_basics.ipynb` (07/11)
 - [ ] `docs/03_research/pytorch_basics.md`
 - [ ] `docs/03_research/data_preprocessing.md`
