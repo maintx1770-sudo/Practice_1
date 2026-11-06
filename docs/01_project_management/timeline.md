@@ -10,16 +10,16 @@
 | | Mai | `lab_requirements.md` | Xong |
 | | Đức | `hyperparameters.md` | Trễ|
 | | Trúc Chi | viết `conftest.py` | Xong |
-| **04/11 (T4)** | Nguyễn Chi | `transforms.py` | |
-| | My | `neural_network.py` | |
-| | Huynh | `metrics.py` | |
-| | Trúc Chi | `tests/conftest.py` | |
-| **05/11 (T5)** | Nguyễn Chi | `dataset.py` | |
-| | My | `test_model.py`, bắt đầu `model_io.py` | |
-| | Huynh | Khung `trainer.py`, chạy thử bằng dữ liệu giả | |
-| | Đức | `plot_loss.py` bằng history giả | |
-| | Trúc Chi | `test_plan.md`, `test_cases.md` | |
-| | Mai | 4 file `docs/01_project_management/`, `experiment_requirements.md` | |
+| **04/11 (T4)** | Nguyễn Chi | `transforms.py` |Xong|
+| | My | `neural_network.py` |Xong|
+| | Huynh | `metrics.py` |Xong|
+| | Trúc Chi | `tests/conftest.py` |Xong|
+| **05/11 (T5)** | Nguyễn Chi | `dataset.py` |Xong|
+| | My | `test_model.py`, bắt đầu `model_io.py` |Xong 
+| | Huynh | Khung `trainer.py`, chạy thử bằng dữ liệu giả |Xong|
+| | Đức | `plot_loss.py` bằng history giả |Chưa làm, trễ|
+| | Trúc Chi | `test_plan.md`, `test_cases.md` |Xong |
+| | Mai | 4 file `docs/01_project_management/`, `experiment_requirements.md` |Xong|
 | **06/11 (T6)** | Nguyễn Chi | `test_transforms.py`, `test_dataset.py` | |
 | | My | `model_io.py`, `test_model_io.py` | |
 | | Huynh | Hoàn chỉnh `trainer.py`, bắt đầu `test_metrics.py`, `test_trainer.py` | |
