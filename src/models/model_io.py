@@ -20,7 +20,7 @@ def save_model(model, path=None):
 
 
 def load_model(model, path=None, device=None):
-    """Nạp trọng số vào `model` (đã khởi tạo đúng kiến trúc), chuyển sang eval()."""
+    """Nạp trọng số vào `model` (đã khởi tạo đúng kiến trúc), chuyển sag eval()."""
     path = Path(path) if path else CHECKPOINT_DIR / DEFAULT_CHECKPOINT_NAME
     if not path.exists():
         raise FileNotFoundError(f"Không tìm thấy checkpoint: {path}")
