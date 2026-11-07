@@ -25,7 +25,7 @@
 | | Huynh | Hoàn chỉnh `trainer.py`, bắt đầu `test_metrics.py`, `test_trainer.py` | |
 | | Đức | Khung `show_predictions.py` | |
 | **07/11 (T7)** | Huynh | Chạy `02_fashionmnist_training.ipynb`, sinh history và checkpoint thật | |
-| | Nguyễn Chi | `01_pytorch_basics.ipynb` | |
+| | Nguyễn Chi | `01_pytorch_basics.ipynb` |Xong|
 | | My | Hỗ trợ kiểm tra tích hợp model và model_io | |
 | | Trúc Chi | Kiểm tra các module và test đã xong | |
 | **08/11 (CN)** | Đức | `tune_hyperparams.py`; chạy `show_predictions.py`, `plot_loss.py` trên dữ liệu thật | |
