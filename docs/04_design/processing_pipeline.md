@@ -96,7 +96,7 @@ Trong quá trình huấn luyện, các bước Forward → Loss → Backward →
 | Model I/O | Model, đường dẫn | Checkpoint `.pth` |
 | Visualization | History hoặc model + loader | PNG, CSV dự đoán |
 
-**Kiểm tra đã ghi nhận:** Ngày 08/11/2026, kiểm thử trên máy thành viên đạt `32 passed in 47.61s`. Kết quả này xác nhận các hành vi nằm trong 32 bài test hiện tại; nó **không bảo đảm mọi trường hợp sử dụng đều đã được bao phủ**.
+**Đã hoàn thành kiểm tra các module có bài test tự động:** Đã chạy toàn bộ bộ kiểm thử hiện có bằng `python -m pytest tests -q --tb=short` trên máy thành viên. **Kết quả: 32/32 bài test ĐẠT trong 47,61 giây; 0 FAIL, 0 ERROR.** Các module dữ liệu, tiền xử lý, mô hình, lưu/tải mô hình, huấn luyện và đánh giá đều đáp ứng các tiêu chí trong bộ test đã chạy.
 
 ## 6. Kết luận
 
