@@ -90,8 +90,6 @@ Practice_1/
 
 - Các chức năng cốt lõi được kiểm tra qua `tests/test_dataset.py`, `test_transforms.py`, `test_model.py`, `test_model_io.py`, `test_trainer.py`, `test_metrics.py`.
 - `tests/conftest.py` cung cấp fixture ảnh/nhãn giả, model mẫu, DataLoader và đường dẫn checkpoint tạm.
-- Kết quả kiểm thử trên máy thành viên ngày **08/11/2026**: `32 passed in 47.61s`.
-- Chưa có file test tự động riêng cho hai module trực quan hóa; có thể bổ sung trong các vòng kiểm thử sau.
 - Muốn mở rộng kiến trúc, có thể thêm model trong `src/models/`, sau đó đăng ký vào `MODELS` của script so sánh hoặc `build_model()` của script tuning. Giữ nguyên giao diện đầu vào `(B,1,28,28)` và đầu ra `(B,10)`.
 
 ## 8. Kết luận
