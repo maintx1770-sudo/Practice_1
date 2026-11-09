@@ -1,5 +1,5 @@
 import torch
-from torch import dropout, nn
+from torch import nn
 
 from src.config import IMAGE_SIZE, NUM_CHANNELS, NUM_CLASSES
 
