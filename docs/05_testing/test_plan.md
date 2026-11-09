@@ -6,7 +6,7 @@
 |---|---|
 | Tên dự án | **Practice 1 – PyTorch FashionMNIST Classification** |
 | Công cụ | `pytest`, PyTorch, Python |
-| Trạng thái | **Kế hoạch dự kiến**, chưa ghi nhận kết quả kiểm thử |
+| Trạng thái | Đã thực hiện ngày 09/11/2026; kết quả ghi trong `docs/05_testing/test_report.md` |
 
 ## 2. Mục tiêu
 
