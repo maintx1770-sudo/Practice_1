@@ -1,0 +1,4 @@
+model,total_params,trainable_params,epochs,train_time_s,test_loss,test_accuracy
+MLP,235146,235146,5,35.9,0.3421,0.879
+CNN,421642,421642,5,181.0,0.244,0.91
+DeepCNN,241546,241546,5,229.9,0.247,0.9083
