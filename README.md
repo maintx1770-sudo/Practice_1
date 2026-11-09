@@ -2,7 +2,7 @@
 
 Bài thực hành xây dựng mô hình học sâu bằng PyTorch để phân loại ảnh thời trang FashionMNIST thành 10 lớp.
 
-> **Trạng thái:** dự án đang trong giai đoạn triển khai (03/11/2026 – 11/11/2026). 
+> **Trạng thái (cập nhật 09/11/2026):** mã nguồn, thử nghiệm, tài liệu, báo cáo ngắn (`results/reports/practice1_report.md`) và 3 notebook đã hoàn thành và chạy thật; 34/34 test PASS. Kết quả chính: CNN đạt **91,93%** accuracy trên tập test (10 epoch). Việc còn lại trước hạn 11/11: cả nhóm kiểm tra lần cuối và xác nhận file đã lên GitHub.
 
 ## 1. Mục tiêu
 
@@ -146,9 +146,10 @@ Mở thư mục `notebooks/` và chạy theo thứ tự:
 
 **Script thử nghiệm:**
 ```bash
-python -m experiments.compare_models
-python -m experiments.tune_hyperparams
+python -m experiments.compare_models --epochs 5      # so sánh MLP, CNN, DeepCNN (~8 phút trên CPU)
+python -m experiments.tune_hyperparams --epochs 3    # tinh chỉnh learning rate, batch size, epoch, optimizer, dropout (~25 phút trên CPU)
 ```
+Kết quả ghi vào `results/tables/` và `results/figures/`; tổng hợp trong `docs/06_results/experiment_results.md`.
 
 **Kiểm thử:**
 ```bash
@@ -165,7 +166,7 @@ tensorboard --logdir data/output/tensorboard
 | Sản phẩm | Vị trí |
 |---|---|
 | Mã Python | `src/`, `experiments/`, `notebooks/` |
-| Báo cáo ngắn | `results/reports/` |
+| Báo cáo ngắn | `results/reports/practice1_report.md` |
 | Biểu đồ loss | `results/figures/` |
 | Ảnh dự đoán so với nhãn thật | `results/figures/`, `data/output/predictions/` |
 | Bảng kết quả thử nghiệm | `results/tables/` |

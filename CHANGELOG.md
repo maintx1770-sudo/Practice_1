@@ -2,6 +2,28 @@
 Mọi thay đổi quan trọng của dự án Practice 1 (PyTorch FashionMNIST Classification) được ghi lại tại đây.
 Định dạng tham khảo [Keep a Changelog](https://keepachangelog.com/). Các phiên bản tương ứng với các mốc trong kế hoạch dự án (03/11 – 11/11/2026).
 
+> **Lưu ý (09/11/2026):** các phiên bản 0.4.0 đến 1.0.0 bên dưới được ghi theo kế hoạch ngày; trạng thái thực tế đến ngày 09/11 xem mục `[Unreleased]`. Chỉ đổi thành phiên bản chính thức khi cả nhóm đã kiểm tra và bàn giao.
+
+## [Unreleased] - 2026-11-09
+
+### Added
+- Chạy thật toàn bộ pipeline trên CPU: `experiments/compare_models.py --epochs 5` (`results/tables/model_comparison*.csv`), `experiments/tune_hyperparams.py --epochs 3` với đủ 11 cấu hình (`results/tables/hyperparameter_results.csv`, `tune-*_history.csv`, `results/figures/tune-*_history.png`).
+- `notebooks/02_fashionmnist_training.ipynb` đã chạy (có output; `results/tables/training_history.csv`, `class_report.csv`); `notebooks/03_practice1_full.ipynb` được viết và chạy đầy đủ.
+- `docs/06_results/evaluation_results.md`, `experiment_results.md`, `conclusion.md`; `docs/05_testing/test_report.md` (34/34 test, 24/24 TC PASS); `docs/03_research/evaluation_methods.md`.
+- `results/reports/practice1_report.md`: báo cáo ngắn của bài thực hành.
+- `tests/test_metrics.py`: thêm `test_accuracy_perfect`, `test_accuracy_wrong` (TC-16, TC-17).
+
+### Changed
+- `docs/03_research/pytorch_basics.md`, `data_preprocessing.md`: mở rộng nội dung và thêm nguồn tham khảo.
+- `docs/05_testing/test_cases.md`, `test_plan.md`: cập nhật trạng thái sau khi chạy thực tế.
+- `README.md`: cập nhật trạng thái và cách chạy.
+
+### Fixed
+- `src/models/neural_network.py`: bỏ `from torch import dropout` không dùng (bị tham số `dropout` che mất).
+
+### Notes
+- Dữ liệu FashionMNIST (`data/input/`) và checkpoint `.pth` không nên đưa lên Git (đã có trong `.gitignore`); nếu đã lỡ commit, gỡ khỏi index bằng `git rm -r --cached data/input data/output/checkpoints`.
+
 ## [1.0.0] - 2026-11-11
 
 Bàn giao dự án.
