@@ -40,3 +40,15 @@ def test_evaluate_does_not_change_weights_or_mode():
 def test_predict_all_shapes():
     y_true, y_pred = predict_all(_model(), _loader(n=20))
     assert y_true.shape == y_pred.shape == (20,)
+
+
+def test_accuracy_perfect():
+    """TC-16: dự đoán trùng hoàn toàn với nhãn thật -> accuracy = 1.0."""
+    logits = torch.tensor([[2.0, 0.0, 0.0], [0.0, 2.0, 0.0], [0.0, 0.0, 2.0]])
+    assert accuracy_from_logits(logits, torch.tensor([0, 1, 2])) == pytest.approx(1.0)
+
+
+def test_accuracy_wrong():
+    """TC-17: dự đoán sai hoàn toàn -> accuracy = 0.0."""
+    logits = torch.tensor([[2.0, 0.0, 0.0], [0.0, 2.0, 0.0], [0.0, 0.0, 2.0]])
+    assert accuracy_from_logits(logits, torch.tensor([1, 2, 0])) == pytest.approx(0.0)
